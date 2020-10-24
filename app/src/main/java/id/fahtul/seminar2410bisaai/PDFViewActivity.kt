@@ -7,13 +7,13 @@ import kotlinx.android.synthetic.main.activity_p_d_f_view.*
 
 class PDFViewActivity : AppCompatActivity() {
 
-    private lateinit var pdfView: PDFView
+//    private lateinit var pdfView: PDFView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_p_d_f_view)
 
-        pdfView  = findViewById(R.id.pdfView)
+//        pdfView  = findViewById(R.id.pdfView)
 
         val namaFile = intent.getStringExtra("NAMAFILE")
 
